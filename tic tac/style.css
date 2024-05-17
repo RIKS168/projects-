@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #57737A;
+    text-align: center;
+}
+.container{
+    height:70vh;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    align-items: center;
+    gap: 1.7vmin;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.7vmin;
+  
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 8px;
+    border: none;
+    box-shadow:  0 0 1 rem rgb(red, green, blue);
+    font-size: 11vmin;
+    color: teal
+}
+#reset-btn{
+    height: 10vh;
+    width: 25vh;
+    color: rgb(255, 255, 255);
+    background-color: rgb(12, 12, 12);
+    border: none;
+    border-radius: 10px;
+}
+
+#msg{
+    color: rgb(255, 255, 255);
+    font-size: 10vh;
+    font-family:  "Jersey 25 Charted", sans-serif;;
+}
+.msg-container{
+    height: 28vmin;
+}
+.hide{
+    display: none;
+}
+#new-btn{
+    height: 10vh;
+    width: 25vh;
+    color: rgb(255, 255, 255);
+    background-color: rgb(12, 12, 12);
+    border: none;
+    border-radius: 10px;
+}
+
